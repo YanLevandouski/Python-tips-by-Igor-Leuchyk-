@@ -1,0 +1,24 @@
+Exercise #1:
+
+To create class called "Vehicle" (to determine the type of the vehicle).
+
+Every class should contain:
+ - vehicle type (string);
+ - max speed (float);
+ - mileage (int).
+
+In this class we have to present the method of description. The method should provide us with whole vehicle description.
+
+Exercise #2:
+
+To create 2 child classes:
+ - bus: it should inherit all parent class's valies as well as have its own - "passenger capacity" (by default == 50);
+ - automobile: it should inherit all parent class's valies as well as have its own - "vehicle color" (by default == white).
+
+Also, we need to create a method in parent's class called "rent".
+This method by default should count squared number of seats for each child class.
+
+Exercise #3:
+
+To create a "Service_alert" method which would trigger a message "Service Required!" as many times as how many times mileage is greater than 10000.
+For example: mileage < 10000 => "No Service Required!"; mileage = 10000 => "Service Required!"; mileage = 40000 => "Service Required! Service Required! Service Required! Service Required!"; mileage = 10240 => "Service Required!"
