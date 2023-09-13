@@ -1,0 +1,15 @@
+Exercise #1 (pt.1 file):
+
+Having available "data.xlsx" file, read data from the dataframe and describe it.
+Fill in the blanks for the first 0 - 1000 rows using mean() method.
+Fill in the blanks for the first 1000 - 2000 rows using ffil() method.
+All the other row fill in in using bfil () method.
+Describe the data after the filling of the blanks.
+
+Exercise #2 (pt.1 file):
+
+Prepare linear regression (in order to predict PETAL WIDTH) and describe the result.
+
+Exercise #3 (pt.2 file):
+
+Repeat all the actions mentioned above but with the other dataset "data2.xlsx" which is more complicated.
