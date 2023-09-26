@@ -1,0 +1,25 @@
+Exercise #1:
+
+Create a database containing 3 tables: Table1, Table2 and Table 3.
+Table1 contains: Primary Key (ID); Vehicle_type; Mileage; Max_Speed; Passenger_Count; Category (with A, B or C transport categories)
+It doesn't matter what creation method to choose. It's important for the table to have 20 different values (A categories x3 (motorcycles); B categories x12 (Passenger car); C categories x5 (Truck)).
+
+Table2 contains: Primary Key (its own ID); Foreign Key (from Table1); Driver_Name (20 different drivers); Driver_Category (A, B, C).
+One driver - one vehicle type. It's important for the table to have 7 errors entries (for example: a driver has a morcycle but has C driving category).
+
+Table 3: contains: Category (A, B, C), Permitted_Roads (random combinations of letters and numbers like: CR22, AT12; 10 unique values).
+
+Exercise #2:
+
+Write a Select query, save as DF and export in .csv / .xlsx format tables:
+
+ - A table that will contain only the correct matching of drivers and their vehicles (driver with B category drives passenger car; with A - motorcycle and etc.).
+ - A table containing drivers that can use only 2 types of roads. For example, drivers who can drive CR22 and AT22 roads (while drivers have correct license type and vehicle).
+
+Describe Table1:
+
+ - mid speed by categories;
+ - max mileage by categories;
+ - what is the max speed for a vehicle with passenger capacity > 8 (if any)?
+
+
