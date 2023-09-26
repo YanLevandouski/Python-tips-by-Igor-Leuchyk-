@@ -1,0 +1,14 @@
+Exercise #1:
+
+Having "data.xlsx" file in, read DF's data and describe it.
+Calculate the correlation between all columns.
+
+Exercise #2:
+
+Build a visualisation of each of the columns using any method you wish.
+Explain the choice.
+
+Exercise #3:
+
+Does the distribution of any variable look normal?
+What could be done with the distribution to make it normal?
